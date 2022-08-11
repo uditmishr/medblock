@@ -31,7 +31,7 @@ Medblock is a simple web application to book appointments for medical consultant
     truffle migrate
     ````
 ### **GUI**
-![User Interface](src\components\Img\2.png)
+![User Interface](src/components/Img/2.png)
 
 ## **Note**
  
