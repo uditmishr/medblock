@@ -5,11 +5,7 @@ import logo from './logo.png';
 import { create } from 'ipfs-http-client'
 import record from '../abis/record.json'
 
-//const ipfsClient = require('ipfs-http-client')
-const ipfs = create({ host: 'ipfs.infura.io', port: 5001, protocol: 'https' }) // leaving out the arguments will default to these values
-
-
-
+const ipfs = create({ host: 'ipfs.infura.io', port: 5001, protocol: 'https'}) // leaving out the arguments will default to these values
 
 class App extends Component {
 
@@ -100,7 +96,7 @@ class App extends Component {
     ipfs.add(ds).then((res) => {
       this.setState({ recHash: res.path })
       //const hash = res.path
-      console.log(this.state.recHash)
+      //console.log(this.state.recHash)
       this.state.contract.methods.set(id, this.state.recHash).send({ from: this.state.account })
     })
 
