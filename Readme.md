@@ -4,7 +4,7 @@
 
 Medblock is a simple web application to book appointments for medical consultants and shows the booked appointment using the corresponding id. This application uses a combination of blockchain and InterPlanetary File System(IPFS) as a backend to store and access data.
 
-### **Setting Up Enviroment**
+### **Setting Up Environment**
 - Install metamask (gateway for blockchain transcation)
 - Install ganache ( personal Ethereum blockchain which you can use to run tests, execute commands, and inspect state while controlling how the chain operates.)
 - Install Node js
@@ -24,7 +24,7 @@ Medblock is a simple web application to book appointments for medical consultant
     truffle compile
     ````
 
-- Open ganche setup enviroment
+- Open ganche setup environment
 
 - Migrate the truffle on network
     ```
